@@ -1,0 +1,275 @@
+
+
+@font-face {
+        font-family: "Roboto Regular";
+        src: url("/Roboto/Roboto-Regular.ttf");
+      }
+  
+      @font-face {
+        font-family: "Roboto Bold";
+        src: url("../Roboto/Roboto-Bold.ttf");
+      }
+
+
+* {
+        box-sizing: border-box;
+}
+
+div {
+        display: block;
+        font-family: Roboto;
+}
+
+li {
+        list-style-type: none;
+}
+
+a {
+        text-decoration: none;
+        color: black;
+}
+
+
+.header-navigation  {     /* это вся навигация  */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 2px solid black;
+}
+
+
+.navigation-item {    /* лого нави и энд */
+        align-items: center;
+}
+
+.main-logo-link {   /* лого  */
+        padding-left: 68px;
+        font-size: 69px;
+        padding-top: 0px;
+}
+.header-customer-care-link{  /* энд  */
+        padding-right: 74px;
+        font-size: 22px;
+        margin: 0px;
+        text-align: center;
+}
+.header-navigation-list { /* нави из 3  */
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        min-height: 84px;
+        border-left: 2px solid black;
+}
+
+.header-navigation-item { /* айтем из нави  */
+        border-right: 2px solid black;
+        min-height: 84px;
+        text-align: center;
+        padding: 24px 0px;
+        flex-wrap: nowrap
+}
+.header-navigation-link { /* линк из нави  */
+        padding: 0px 74px;
+        font-size: 22px;
+        margin: 0px;
+        text-align: center;
+        flex-wrap: nowrap;
+}
+/* prosto nemislimo */
+
+
+
+______________
+
+
+.header-container {
+        margin-bottom: 15px;
+}
+
+.main-page-container {
+        height: 720px;
+        margin-bottom: 150px;
+}
+.main-photo {
+        display: flex;
+        justify-content: end;
+        margin-top: 71px;
+        margin-bottom: 71px;
+        margin-right: 120px;
+}
+
+.main-page-heading {
+        display: block;
+        position: relative;
+        bottom: 330px;
+        font-size: 84px;
+        margin-left: 130px;
+}
+
+.collection-link-button {
+        display: flex;
+        position: relative;
+        bottom: 400px;
+        font-size: 17px;
+        margin-left: 130px;
+}
+
+.collection-link {
+        margin-right: 5px;
+}
+
+/*__________________________________________*/
+
+.catalogue-gender-page-container {
+        margin-bottom: 195px;
+}
+.catalogue-gender-page {
+        display: flex;
+        flex-flow: row nowrap;
+}
+
+.man-catalogue-link {
+        padding: 41px 95px;
+        background-color: pink;
+        position: relative;
+        bottom: 65px;
+        left: 440px;
+        font-size: 18px;
+}
+
+.woman-catalogue-link {
+        padding: 41px 95px;
+        background-color: pink;
+        position: relative;
+        bottom: 65px;
+        left: 412px;
+        font-size: 18px;
+}
+
+/*__________________________________________*/
+
+.new-items-page-container {
+        margin-bottom: 195px;
+}
+
+.new-items-header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+}
+.new-items-heading {
+        margin-left: 66px;
+        font-size: 70px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Roboto Bold;
+}
+.create-line {
+        width: 1440px;
+        border-top: 2px solid black;
+        margin-bottom: 77px;
+      }
+
+.new-items-collection-link {
+        font-size: 17px;
+}
+
+.collection-link-description {
+        margin-bottom: 12px;
+        margin-right: 71px;
+}
+
+.new-items-list {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+}
+
+.new-items-link {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+}
+
+.new-items-name {
+        margin-bottom: 7px;
+        font-family: Roboto Bold;
+        font-size: 16px;
+}
+
+.new-items-color {
+        margin-bottom: 13px;
+        font-size: 16px;
+}
+
+.new-items-price {
+        font-family: Roboto Bold;
+        font-size: 16px;
+}
+
+/*___________________________________*/
+
+.promotion-page-container {
+        background-color: #AABAD0;
+        height: 620px;
+        margin-bottom: 195px;
+}
+
+.promotion-page-set {
+        display: flex;
+}
+
+.promotion-item-manufacturer {
+        margin-top: 280px;
+        margin-left: 71px;
+        font-family: Roboto;
+        font-size: 19px;
+}
+
+.promotion-item-name {
+        margin-left: 71px;
+        font-size: 70px;
+        font-family: Roboto Regular;
+}
+
+
+.promotion-item-description {
+        margin-left: 74px;
+        font-family: Roboto Regular;
+}
+
+.catalogue-link {
+        padding: 46px 67px;
+        background-color: pink;
+        font-size: 18px;
+        font-family: Roboto Regular;
+}
+
+.promotion-catalogue-button {
+        margin-top: 153px;
+        margin-left: 72px;
+}
+
+/*_________________________________*/
+
+.bestsellers-items-header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+}
+.bestsellers-items-heading {
+        margin-left: 66px;
+        font-size: 70px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Roboto Regular;
+}
+.create-line {
+        width: 1440px;
+        border-top: 2px solid black;
+        margin-bottom: 77px;
+        vertical-align: top;
+        line-height: 15;
+      }

@@ -1,0 +1,458 @@
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../Roboto/Roboto-Bold.ttf");
+}
+
+* {
+  font-family: Roboto Relular; 
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*_____________________________________________________*/
+.header-container {
+  margin-bottom: 15px;
+}
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid black;
+  border-bottom: 2px solid #000;
+}
+.main-logo {
+  margin-left: 68px;
+  display: flex;
+  align-items: baseline;
+}
+.navigation-item {
+  white-space: nowrap;
+  text-align: center;
+}
+.main-logo-link {
+font-family: Roboto Relular;
+font-size: 69px;
+}
+.header-navigation-list {
+  display: flex;
+  justify-content: center;
+}
+.header-navigation-item {
+  padding: 23px 72px;
+  border-left: 2px solid black;
+  font-size: 22px;
+}
+
+.header-navigation-item:last-child {
+  border-right: 2px solid black;
+}
+
+.header-customer-care-item {
+  margin-right: 54px;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+
+
+/*_____________________________________________________*/
+.main-page-container {
+  height: 720px;
+  margin-bottom: 150px;
+}
+.main-page {
+  background-image: url(/img/Framebg.png);
+  height: 720px;
+}
+.main-page-heading {
+  position: relative;
+  top: 390px;
+  left: 120px;
+  font-size: 84px;
+  font-family: Roboto Regular;
+}
+.collection-link-button {
+  display: flex;
+  position: relative;
+  top: 320px;
+  left: 120px;
+}
+
+.arrow-button {
+  margin-left: 5px;
+}
+
+/*_____________________________________________________*/
+.catalogue-gender-page-container {
+  margin-bottom: 195px;
+}
+.catalogue-gender-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.woman-catalogue-button {
+  float: right;
+  position: relative;
+  bottom: 65.5px;
+}
+
+.woman-catalogue-link {
+  padding: 41px 80px;
+  background-color: #FFBCBC;
+  font-size: 18px;
+}
+
+.man-catalogue-button {
+  float: right;
+  position: relative;
+  bottom: 65.5px;
+}
+.man-catalogue-link {
+  padding: 41px 80px;
+  background-color: #FFBCBC;
+  font-size: 18px;
+}
+
+/*_____________________________________________________*/
+.new-items-page-container {
+  margin-bottom: 195px;
+}
+
+.new-items-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.new-items-heading {
+
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 68px;
+  font-family: Roboto Bold;
+  font-size: 70px;
+
+}
+.new-items-collection-link {
+  margin-right: 71px;
+}
+
+.create-line {
+  width: 1440px;
+  border-top: 2px solid black;
+  margin-bottom: 77px;
+}
+.new-items-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-items-item:not(:last-child) {
+  margin-right: 20px;
+}
+.new-items-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.glasses1 {
+  display: inline-block;
+  transition: all .3s ease;
+}
+
+.glasses1:hover {
+  background: url(/img/Rectangleglasses1\ V1.png) no-repeat 50% 50%;
+}
+
+.new-items-name {
+  margin-top: 20px;
+  font-family: Roboto Bold;
+  font-size: 20px;
+}
+.new-items-color {
+  margin-top: 7px;
+  font-size: 16px;
+}
+.new-items-price {
+  margin-top: 13px;
+  font-family: Roboto Bold;
+  font-size: 16px;
+}
+
+/*_____________________________________________________*/
+.promotion-page-container {
+  margin-bottom: 195px;
+}
+.promotion-page {
+  height: 620px;
+  background-color: #AABAD0;
+}
+.promotion-page-set {
+  display: flex;
+}
+.promotion-img {
+  height: 620px;
+}
+
+.promotion-item {
+  margin-top: 280px;
+  margin-left: 71px;
+}
+.promotion-item-manufacturer {
+  font-family: Roboto Regular;
+  font-size: 19px;
+}
+.promotion-item-name {
+  font-family: Roboto Regular;
+  font-size: 70px;
+}
+.promotion-item-description {
+  font-family: Roboto Regular;
+  font-size: 20px;
+}
+.promotion-catalogue-button {
+  position: relative;
+  top: 148px;
+}
+.catalogue-link {
+  padding: 46px 67px;
+  background-color: #FFBCBC;
+  font-size: 18px;
+}
+/*_____________________________________________________*/
+
+.bestsellers-items-page-container {
+  margin-bottom: 195px;
+}
+
+.bestsellers-items-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.bestsellers-items-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 66px;
+  font-family: Roboto Regular;
+  font-size: 70px;
+}
+.bestsellers-collection-link {
+  margin-right: 71px;
+}
+.bestsellers-items-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bestsellers-items-item:not(:last-child) {
+  margin-right: 20px;
+}
+.bestsellers-items-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.bestsellers-items-name {
+  margin-top: 20px;
+  font-family: Roboto Bold;
+  font-size: 20px;
+}
+.bestsellers-items-color {
+  margin-top: 7px;
+  font-size: 16px;
+}
+.bestsellers-items-price {
+  margin-top: 13px;
+  font-family: Roboto Bold;
+  font-size: 16px;
+}
+/*_____________________________________________________*/
+.catalogue-sight-page-container {
+  margin-bottom: 195px;
+}
+.catalogue-sight-page {
+  display: flex;
+}
+
+.catalogue-sight-button {
+  position: relative;
+  left: 441px;
+  bottom: 61px;
+}
+.catalogue-sight-link {
+  padding: 41px 95px;
+  background-color: #FFBCBC;
+  font-family: Roboto Regular;
+  font-size: 18px;
+}
+/*________________________________________________*/
+.brands-container {
+  margin-bottom: 195px;
+}
+
+.brands-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.brands-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 66px;
+  font-family: Roboto Bold;
+  font-size: 70px;
+}
+.brands-link {
+  margin-right: 57px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.brands-picture {
+  position: relative;
+  bottom: 240px;
+}
+/*_____________________________________________________*/
+.about-us-container {
+  margin-bottom: 150px;
+}
+.about-us {
+  display: flex;
+}
+.about-us-text {
+  padding: 0 111px 61px 137px;
+}
+.about-us-heading {
+  margin-top: 0;
+  font-family: Roboto Bold;
+  font-size: 70px;
+}
+.about-us-first-description {
+  width: 467px;
+  margin-top: 22px;
+  margin-bottom: 30px;
+  font-family: Roboto Regular;
+  font-size: 20px;
+  font-weight: 30;
+}
+.about-us-second-description {
+  width: 467px;
+  font-family: Roboto Regular;
+  font-size: 20px;
+  font-weight: 30;
+}
+
+/*_____________________________________________________*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #AABAD0;
+  
+}
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+}
+.logo {
+  margin-left: 138px;
+  font-size: 69px;
+}
+.slogan {
+  padding: 40px 136px 36px 0;
+  font-family: Roboto Bold;
+  font-size: 18px;
+}
+.footer-navigation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.navigation-catalogue-list {
+  margin-top: 36px;
+  margin-left: 140px;
+  flex: 1;
+}
+
+
+.navigation-catalogue-item:not(:last-child) {
+  margin-bottom: 11px;
+}
+
+.navigation-customer-care-list {
+  margin-top: 36px;
+  margin-left: 79px;
+  flex: 1;
+}
+.navigation-customer-care-item:not(:last-child) {
+  margin-bottom: 11px;
+}
+
+.navigation-info-list {
+  margin-top: 36px;
+  margin-left: 70px;
+  flex: 1;
+}
+.navigation-info-item:not(:last-child) {
+  margin-bottom: 11px;
+}
+
+.contacts {
+  flex: 2;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  border-left: 2px solid  #000;
+}
+.contacts-description {
+  margin-left: 41px;
+  padding-bottom: 49px;
+  width: 245px;
+  border-bottom: 2px solid #000;
+  font-family: Roboto Regular;
+  font-size: 18px;
+}
+.contacts-nav {
+  display: flex;
+  margin-left: 37px;
+  margin-top: 45px;
+}
+
+.contacts-list-description {
+  margin-bottom: 6px;
+}
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.socials-icons {
+  display: flex;
+  margin-left: 40px;
+}
+.instagram-icon {
+  margin-right: 17px;
+}
+.copirated {
+  position: relative;
+  bottom: 100px;
+  margin-left: 139px;
+  font-size: 18px;
+}
